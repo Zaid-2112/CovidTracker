@@ -1,0 +1,46 @@
+.App{
+  text-align: center;
+}
+body{
+
+  background: whitesmoke;
+  font-family: sans-serif;
+}
+.row{
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  background: white;
+  /*box-shadow: 20px 20px 50px grey;
+  border-bottom: 4px solid #10c6e6 100%;*/
+}
+.NewConfirmed{padding: 20px;
+  text-align: center;
+  margin: 0 auto;
+  color: #10c6e6;
+  
+}
+.TotalConfirmed{padding: 20px;
+  text-align: center;
+  margin: 0 auto;
+  color: #271db8;
+}
+.NewDeaths{padding: 20px;
+  text-align: center;
+  margin: 0 auto;
+  color: red;
+ 
+}
+.TotalDeaths{padding: 20px;
+  text-align: center;
+  margin: 0 auto;
+  color: orangered;
+  
+}
+.TotalRecovered{
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto;
+  color: green;
+  
+}
