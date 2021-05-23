@@ -3,7 +3,7 @@ import axios from 'axios'
 import Summary from "./Summary"
 import Countries from "./Countries"
 
-
+// this Components Fatch all Details from api('https://api.covid19api.com/summary')
 class Details extends React.Component{
     state = {
         countries:[],

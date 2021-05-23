@@ -1,6 +1,8 @@
 import React from "react";
 import  "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
+// this is a Countries components show on base components
+//Show Country, NewConfirmed, TotalConfirmed, NewDeaths attributes on screen  
 class Countries extends React.Component{
     render(){
         const {countries} = this.props;
